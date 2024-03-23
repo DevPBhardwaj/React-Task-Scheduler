@@ -1,0 +1,107 @@
+/* ToDoContainer.css */
+.container-flex {
+    background-image: linear-gradient(to right, white, rgb(165, 207, 223));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDo {
+    min-width: 400px;
+    min-height: 500px;
+    background-color: rgb(244, 232, 232);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.toDo .title h2 {
+    font-weight: 300;
+    width: 10rem;
+    margin: 0 auto 2rem;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.inputField input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.inputField button {
+    background-color: rgb(48, 165, 48);
+    color: white;
+    padding: 10px; /* Adjusted padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inputField button:hover {
+    background-color: rgb(38, 145, 38);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading h3 {
+    font-weight: 300;
+}
+
+.dynamicDataUpper {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.dynamicData {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+}
+
+.dynamicData h6 {
+    margin: 0;
+}
+
+.dynamicData .buttons {
+    margin-left: auto; /* Move buttons to the right */
+}
+
+.dynamicData .buttons i {
+    margin-left: 10px; /* Add spacing between buttons */
+}
+
+.removeData {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.removeData button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeData button:hover {
+    background-color: rgb(173, 0, 0);
+}
